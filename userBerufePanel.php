@@ -15,6 +15,7 @@ include 'dbConfig.php';
 
 <!DOCTYPE html>
   <html>
+	  <!-- Import Libraries-->
     <head>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -32,7 +33,6 @@ include 'dbConfig.php';
     <body>
         
         <!-- Navigationsbar -->
-    
   <header>
     <nav class="nav-wrapper transparent" >
       <div class="container" >
@@ -52,7 +52,7 @@ include 'dbConfig.php';
     </nav>
         
 <!-- Wrapper -->
-			<div id="wrapper">
+<div id="wrapper">
                 
 
             <?php
@@ -82,12 +82,12 @@ include 'dbConfig.php';
 
 
     </div>          
-				<!-- CTA -->
+				<!-- Kleiner Absatz -->
 					<section id="cta" class="main special">
 						<h2>Hier gehts zur Anmeldung</h2>
 						<p>Jeder Schüler hat einen benutzernamen und passwort bekommen<br />
 						Falls ihr kein Passwort habt<br />
-						Meldet euch <a href="https://itg.bayern/kontakt0.html">HIER</a></p>
+						Meldet euch <a href=""> bei dem P-Seminar Herr Wolff</a></p>
 						<ul class="actions">
 							<li><a href="login.php" class="button big">LOGIN</a></li>
 						</ul>
@@ -96,7 +96,7 @@ include 'dbConfig.php';
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
                 
-                <!-- Compiled and minified JavaScript -->
+                <!-- Compiled and minified JavaScript for materilaize css-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script 
           src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
